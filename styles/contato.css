@@ -24,9 +24,13 @@
     border: 1px solid var(--azul);
     border-radius: 2em;
     width: 90%;
+    color: var(--azul);
 }
 
 .contato__email::placeholder{
     font-family: var(--fonte-principal);
-    background: ("../assets/vector.svg");
+    background: url("../assets/Email.svg");
+    background-repeat: no-repeat;
+    padding-left: 2em;
+
 }
